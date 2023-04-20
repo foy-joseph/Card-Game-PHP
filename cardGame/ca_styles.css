@@ -1,0 +1,154 @@
+*{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url("CAimg/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: scroll;
+}
+
+button{
+    font-size: x-large;
+    height: 25px;
+    font-size: 100%;
+    color: white;
+    background-color: #fe7e57;
+    transition: transform 0.4s;
+    border: #E6A825;
+    border-radius: 10px;
+    align-items: center;
+}button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}.button{
+    font-size: x-large;
+    height: 25px;
+    font-size: 100%;
+    color: white;
+    background-color: #fe7e57;
+    transition: transform .4s;
+    border: #E6A825;
+    border-radius: 10px;
+    align-items: center;
+}.button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/*Splash Screen*/
+.splash-screen{
+    opacity: 1;
+    padding-top: 120px;
+    text-align: center;
+    align-items: center;
+}.splash-screen h1{
+    color: white;
+    font-size: 300%;
+}.splash-screen h2{
+    color: white;
+    font-size: 150%;
+    font-weight: lighter;
+}
+
+/* menu */
+.new-game-container{
+    text-align: center;
+    padding-top: 140px;
+}
+.destroy-button{
+    font-size: x-small;
+    height: 18px;
+    background-color: red;
+}
+
+/*new game*/
+.get-details{
+    color: white;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 140px;
+}
+
+/* main game page */
+.cards{
+    margin-left: auto; 
+    margin-right: auto;
+    position: relative;
+}
+.clicks{
+    margin: auto;
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #E6A825;
+}
+.flip-button{
+    background-color: #fe7e57;
+    color: black;
+    border-width: 0px;
+    position: sticky;
+}
+.checkbox{
+    width: 75px;
+}
+img{
+    width: 100px;
+    height: 140px;
+    transition: transform .4s;
+}img:hover{
+    transform: scale(1.1);
+}
+
+/* high scores */
+.high-score-table{
+    margin: auto;
+    align-items: center;
+}.high-score-table th{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 110%;
+}.high-score-table td{
+    text-align: center;
+}
+
+/* instructions */
+.instructions{
+    margin-left: 100px;
+    line-height: 6px;
+}.instructions h1{
+    padding-left: 10px;
+}
+.instructions h2{
+    font-weight: bold;
+}
+.instructions h3{
+    padding-left: 30px;
+}
+.instructions h4{
+    padding-left: 40px;
+    font-weight: lighter;
+}
+
+/* game over */
+.game-over{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.hint-button{
+    align-items: left;
+    margin-left: 400px;
+    text-align: left;
+    background-color: #fe7e57;
+    color: black;
+    border-width: 0px;
+}
+
+
